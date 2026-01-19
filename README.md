@@ -13,14 +13,18 @@
     ```
     
 2. Clone the repository
+
+   ```bash
+   git clone https://github.com/ruglawy/sample-web-service-app.git
+   ```
     
-3. Install dependencies
+4. Install dependencies
     
     ```bash
     pip3 install -r requirements.txt
     ```
     
-4. Start the web service, make sure you’re in the webservice_app directory
+5. Start the web service, make sure you’re in the webservice_app directory
     
     > Make sure you’re in the `webservice_app` directory
     > 
@@ -29,7 +33,7 @@
     python3 -m uvicorn app.main:app --host 0.0.0.0 --port 9000
     ```
     
-5. Test it to ensure it's working
+6. Test it to ensure it's working
     
     ```bash
     curl -H "X-API-Key: sailpoint-lab-key" http://localhost:9000/api/health
