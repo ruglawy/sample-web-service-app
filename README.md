@@ -152,7 +152,7 @@ X-API-Key: sailpoint-lab-key
         /users/{USER_UUID} 
         
         # Example:
-        # /users/dc0eca45-39c3-4556-b747-7b605b0db1ab
+        # /users/57dc8271-59eb-4313-b54d-ddb517af1b5a
         ```
         
     2. HTTP Request Method: **GET**
