@@ -9,7 +9,7 @@
     
     ```bash
     sudo apt update
-    sudo apt install -y python3 python3-pip python3-venv unzip
+    sudo apt install -y python3 python3-pip python3-venv sqlite
     ```
     
 2. Clone the repository
@@ -258,7 +258,7 @@ X-API-Key: sailpoint-lab-key
         
     2. HTTP Request Method: **POST**
     3. Sample Body: **NO BODY REQUIRED**
-    4. Sample Output with `204 No Content` ****Response Code: **NO BODY RETURNED**
+    4. Sample Output with **`204 No Content`** Response Code: **NO BODY RETURNED**
 
 - **REMOVE USER FROM GROUP**
     1. Context URL
@@ -272,7 +272,7 @@ X-API-Key: sailpoint-lab-key
         
     2. HTTP Request Method: **DELETE**
     3. Sample Body: **NO BODY REQUIRED**
-    4. Sample Output with `204 No Content` Response Code: **NO BODY RETURNED**
+    4. Sample Output with **`204 No Content`** Response Code: **NO BODY RETURNED**
 
 - **ENABLE ACCOUNT**
     1. Context URL
@@ -293,7 +293,7 @@ X-API-Key: sailpoint-lab-key
         }
         ```
         
-    4. Sample Output with `200 OK` Response Code
+    4. Sample Output with **`200 OK`** Response Code
         
         ```json
         {
@@ -332,7 +332,7 @@ X-API-Key: sailpoint-lab-key
         }
         ```
         
-    4. Sample Output with `200 OK` Response Code
+    4. Sample Output with **`200 OK`** Response Code
         
         ```json
         {
@@ -364,4 +364,4 @@ X-API-Key: sailpoint-lab-key
         
     2. HTTP Request Method: **DELETE**
     3. Sample Body: **NO BODY REQUIRED**
-    4. Sample Output with `204 No Content` Response Code: **NO BODY RETURNED**
+    4. Sample Output with **`204 No Content`** Response Code: **NO BODY RETURNED**
