@@ -24,7 +24,7 @@
     pip3 install -r requirements.txt
     ```
     
-5. Start the web service, make sure you’re in the webservice_app directory
+5. Start the web service
     
     > Make sure you’re in the `webservice_app` directory
     > 
@@ -139,7 +139,7 @@ X-API-Key: sailpoint-lab-key
             ],
             "page": 0,
             "size": 50,
-            "totalElements": 20,
+            "totalElements": 3,
             "isLastPage": true
         }
         ```
